@@ -1,9 +1,8 @@
-# web-2-starter
+# Google Doodle
 
 ## Why?
 * Saves time to setup a new project
-* Starter files for any web project
-* Modern process and tooling
+* 
 
 ## How?
 * Simply click on "Use this template" button to create a new repository
@@ -13,4 +12,4 @@
 
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 
-Boilerplate for Web 2
+Google Doodle
