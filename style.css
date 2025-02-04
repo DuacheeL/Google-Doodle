@@ -1,0 +1,11 @@
+/* Diagnositc Styling */
+* {
+	outline: 2px dotted gray;
+}
+
+
+
+/* temp background color */
+body {
+	background: lightcyan;
+}
