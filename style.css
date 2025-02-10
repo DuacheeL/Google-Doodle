@@ -4,17 +4,11 @@
 } */
 
 
-/* 
-/* temp background color */
-/* body {
-	background: lightcyan;
-}  */
-
 /* Stage */
 #stage {
-	background: #ccc;
-	height: 300px;
-	width: 600px;
+	/* background: #ccc; */
+	height: 360px;
+	width: 640px;
   }
 
   /* DO NOT EDIT BELOW THIS LINE */
