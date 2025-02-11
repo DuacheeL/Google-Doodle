@@ -14,32 +14,162 @@
 
 
 
-
-
-  /* #g {
-    transform: translate(190px, 150px); 
-  } */
-
-
-.window {
-
+/* Blue Dot Animations */
+#bluedot1, .purpledot7, #bss1-left, #bss3-right, #bss4-left, #bss5-bottom {
+  animation: flash 4s ease-in-out infinite;
 }
 
-.ShootingStar {
-
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .5;  
+  }
+  100% {
+    opacity: 1; 
+  }
 }
 
-.astronaut {
- 
+#bluedot2, #bss4-top, #bss5-left {
+  animation: flash 3s ease-in-out infinite;
 }
 
-.YellowStar {
-
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .5;  
+  }
+  100% {
+    opacity: 1; 
+  }
 }
 
-.SmallYellowStar1 {
-  outline: 2px dotted gray;
+#bluedot3, #purpledot4, #bss5-right {
+  animation: flash 5s ease-in-out infinite;
 }
+
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .5;  
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+
+#purpledot1, .purpledot6, #bss1-bottom {
+  animation: flash 5s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .5;  
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+#purpledot2, #bss1-top, #bss3-bottom, #bss4-right {
+  animation: flash 3s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .5;  
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+#purpledot3, #purpledot5, #bss3-top, #bss4-bottom, #bss5-top {
+  animation: flash 1s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .5;  
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+.purpledot8 {
+  animation: flash 1s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: .5; 
+  }
+  50% {
+    opacity: .5;  
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+
+
+
+
+
+
+
+#rss1-middle, #rss4-middle, #bss1-right, #bss3-left {
+  animation: flash 2s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .3;  
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+#rss2-middle, #rss3-middle, #bss2-right {
+  animation: flash 1s ease-in-out infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: .3;  
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+
+
+
 
 
 
