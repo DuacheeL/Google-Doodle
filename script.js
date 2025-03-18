@@ -14,9 +14,9 @@ gsap.to(".astronaut", {
 
 // Google Floating Animation
 gsap.to("#g-letter1", {
-	x: "+=5",        
-	y: "+=5",        
-	rotation: "+=5",  
+	x: "-6",        
+	y: "+6",        
+	rotation: "+=5", 
 	duration: 4,    
 	repeat: -1,     
 	yoyo: true,      
@@ -58,7 +58,7 @@ gsap.to("#g-letter1", {
   
   gsap.to("#l-letter", {
 	x: "+=3",        
-	y: "-=2",       
+	y: "-=5",       
 	rotation: "+=3", 
 	duration: 4,
 	repeat: -1,
@@ -70,7 +70,7 @@ gsap.to("#g-letter1", {
   gsap.to("#e-letter", {
 	x: "+=3",        
 	y: "-=4",       
-	rotation: "-=5",  
+	rotation: "-=9",  
 	duration: 3,
 	repeat: -1,
 	yoyo: true,

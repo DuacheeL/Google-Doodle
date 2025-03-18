@@ -14,9 +14,24 @@
 
 
 
-/* Blue Dot Animations */
+.YellowStar:active {
+  animation: zoomOut 2s;
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+
+
 #bluedot1, .purpledot7, #bss1-left, #bss3-right, #bss4-left, #bss5-bottom {
   animation: flash 4s ease-in-out infinite;
+  
 }
 
 @keyframes flash {
