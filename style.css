@@ -1,8 +1,3 @@
-/* Diagnositc Styling */
-/* * {
-	outline: 2px dotted gray;
-} */
-
 
 /* Stage */
 #stage {
@@ -10,8 +5,6 @@
 	height: 360px;
 	width: 640px;
   }
-
-
 
 
 .YellowStar:active {
@@ -28,10 +21,9 @@
 }
 
 
-
+/* Glittering Single Pixels Animations */
 #bluedot1, .purpledot7, #bss1-left, #bss3-right, #bss4-left, #bss5-bottom {
   animation: flash 4s ease-in-out infinite;
-  
 }
 
 @keyframes flash {
@@ -143,13 +135,6 @@
   }
 }
 
-
-
-
-
-
-
-
 #rss1-middle, #rss4-middle, #bss1-right, #bss3-left {
   animation: flash 2s ease-in-out infinite;
 }
@@ -181,25 +166,6 @@
     opacity: 1; 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
