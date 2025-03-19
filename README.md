@@ -1,6 +1,6 @@
 # Outer Space Google Doodle
 My Google Doodle draws inspiration from outer space as space and extraterrestrial elements have always fascinated me.
-The design features pixelated art and an interactive star element. A shooting star makes an appearance, adding a touch of dynamic movement. This doodle blends my passion for space exploration with playful interactivity, creating a mini-universe within the familiar Google framework.
+The design features pixelated art and an interactive star element. A shooting star also makes an appearance, adding a touch of dynamic movement. This doodle blends my passion for space exploration with playful interactivity, creating a mini-universe within the familiar Google framework.
 
 
 ## Citations
