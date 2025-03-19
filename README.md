@@ -12,5 +12,5 @@ The design features pixelated art and an interactive star element. A shooting st
 * Figma
 * GitHub
 * GSAP 
-* Claude AI
 * ChatGPT
+* Copilot
