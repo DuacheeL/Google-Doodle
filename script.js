@@ -2,14 +2,12 @@
 console.log("Okay");
 
 
-
 // Astronaut animation
 gsap.to(".astronaut", {
 	y: 5,
 	duration: 1,
 	repeat: -1,
 	yoyo: true,
-
 });
 
 gsap.fromTo("#bluepixel",
@@ -22,6 +20,7 @@ gsap.fromTo("#bluepixel",
 		repeat: -1,
 		yoyo: true,
 		ease: "power1.inOut",
+
 	}
 );
 
@@ -51,8 +50,7 @@ gsap.fromTo("#yellowpixel2",
 	}
 );
 
-
-// Google Floating Animation
+// Google Letters Floating Animation
 gsap.to("#g-letter1", {
 	x: "-10",        
 	y: "+6",        
@@ -117,6 +115,38 @@ gsap.to("#g-letter1", {
 	ease: "power1.inOut",
   });
 
+// Draggable Big Yellow Star
+Draggable.create("#bigYellowStar",
+	{
+	type: "x,y",
+	bounds: "#window-black-container",
+	inertia: true,
+	onClick: function () {
+	  console.log("clicked");
+	},
+	onDragEnd: function () {
+	  console.log("drag ended");
+	},
+  });
+
+// Shooting Star
+gsap.fromTo("#shootingStar1", 
+	{
+	opacity: 0,
+	}, 
+	{
+	  x: -600,         
+	  y: 300,         
+	  opacity: 1,     
+	  duration: 5,    
+	  ease: "power2.inOut",
+	  repeat: -1,     
+	  repeatDelay: 1, 
+	}
+  );
+  
+
+
 // ------------------- Exploding Red Stars Animation Start -------------------
 
 //  First Red Exploding Star - Top Left
@@ -131,6 +161,7 @@ gsap.fromTo(".red-star-burst",
 	repeat: -1,
 	yoyo: true,
 	ease: "power1.inOut",
+
 	},
 );
 
@@ -617,7 +648,7 @@ gsap.fromTo (".smallYellowStar2",
 	{
 		rotation: -360,
 		transformOrigin: "center center",
-		duration: 220,
+		duration: 160,
 		repeat: -1,
 	},
 	
@@ -697,7 +728,7 @@ gsap.fromTo (".smallYellowStar3",
 	{
 		rotation: 360,
 		transformOrigin: "center center",
-		duration: 230,
+		duration: 100,
 		repeat: -1,
 	},
 	

@@ -21,6 +21,7 @@
 }
 
 
+
 /* Glittering Single Pixels Animations */
 #bluedot1, .purpledot7, #bss1-left, #bss3-right, #bss4-left, #bss5-bottom {
   animation: flash 4s ease-in-out infinite;
